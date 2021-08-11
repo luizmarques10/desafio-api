@@ -1,0 +1,156 @@
+09:52:43.210 karate.env system property was: uat 
+09:52:43.459 [print] {
+  "mensagem": "O CPF 97093236014 tem problema"
+}
+
+09:52:43.485 karate.env system property was: uat 
+09:52:43.512 [print] {
+  "mensagem": "O CPF 60094146012 tem problema"
+}
+
+09:52:43.538 karate.env system property was: uat 
+09:52:43.563 [print] {
+  "mensagem": "O CPF 84809766080 tem problema"
+}
+
+09:52:43.581 karate.env system property was: uat 
+09:52:43.601 [print] {
+  "mensagem": "O CPF 62648716050 tem problema"
+}
+
+09:52:43.616 karate.env system property was: uat 
+09:52:43.642 [print] {
+  "mensagem": "O CPF 26276298085 tem problema"
+}
+
+09:52:43.661 karate.env system property was: uat 
+09:52:43.680 [print] {
+  "mensagem": "O CPF 01317496094 tem problema"
+}
+
+09:52:43.695 karate.env system property was: uat 
+09:52:43.724 [print] {
+  "mensagem": "O CPF 55856777050 tem problema"
+}
+
+09:52:43.741 karate.env system property was: uat 
+09:52:43.766 [print] {
+  "mensagem": "O CPF 19626829001 tem problema"
+}
+
+09:52:43.783 karate.env system property was: uat 
+09:52:43.812 [print] {
+  "mensagem": "O CPF 24094592008 tem problema"
+}
+
+09:52:43.827 karate.env system property was: uat 
+09:52:43.850 [print] {
+  "mensagem": "O CPF 58063164083 tem problema"
+}
+
+09:52:43.865 karate.env system property was: uat 
+09:52:43.890 [print] 
+09:52:43.906 karate.env system property was: uat 
+09:52:43.927 [print] 
+09:52:43.940 karate.env system property was: uat 
+09:52:43.964 [print] 
+09:52:43.976 karate.env system property was: uat 
+09:52:43.999 [print] 
+09:52:44.014 karate.env system property was: uat 
+09:52:44.037 [print] 
+09:52:44.480 karate.env system property was: uat 
+09:52:44.518 [print] {
+  "parcelas": 6,
+  "seguro": true,
+  "cpf": "35107604684",
+  "valor": 1000,
+  "nome": "Ricardo Vasconcelos",
+  "id": 105,
+  "email": "rr.vascncelos@exemplo.com"
+}
+
+09:52:44.534 karate.env system property was: uat 
+09:52:44.562 [print] {
+  "erros": {
+    "email": "E-mail deve ser um e-mail válido"
+  }
+}
+
+09:52:44.581 karate.env system property was: uat 
+09:52:44.655 [print] {
+  "mensagem": "CPF duplicado"
+}
+
+09:52:44.666 karate.env system property was: uat 
+09:52:44.978 [print] {
+  "parcelas": 24,
+  "seguro": true,
+  "cpf": "35107604684",
+  "valor": 1000.0,
+  "nome": "Ricardo Almeida Vasconcelos",
+  "id": 105,
+  "email": "rr.vascncelos@exemplo.com"
+}
+
+09:52:44.994 karate.env system property was: uat 
+09:52:45.026 [print]
+09:52:45.036 karate.env system property was: uat 
+09:52:45.065 [print] [
+  {
+    "parcelas": 3,
+    "seguro": true,
+    "cpf": "66414919004",
+    "valor": 11000.0,
+    "nome": "Fulano",
+    "id": 11,
+    "email": "fulano@gmail.com"
+  },
+  {
+    "parcelas": 5,
+    "seguro": false,
+    "cpf": "17822386034",
+    "valor": 20000.0,
+    "nome": "Deltrano",
+    "id": 12,
+    "email": "deltrano@gmail.com"
+  },
+  {
+    "parcelas": 3,
+    "seguro": true,
+    "cpf": "97093236014",
+    "valor": 1200.0,
+    "nome": "Fulano de Tal",
+    "id": 13,
+    "email": "email@email.com"
+  },
+  {
+    "parcelas": 24,
+    "seguro": true,
+    "cpf": "35107604684",
+    "valor": 1000.0,
+    "nome": "Ricardo Almeida Vasconcelos",
+    "id": 105,
+    "email": "rr.vascncelos@exemplo.com"
+  }
+]
+
+09:52:45.078 karate.env system property was: uat 
+09:52:45.111 [print] {
+  "parcelas": 24,
+  "seguro": true,
+  "cpf": "35107604684",
+  "valor": 1000.0,
+  "nome": "Ricardo Almeida Vasconcelos",
+  "id": 105,
+  "email": "rr.vascncelos@exemplo.com"
+}
+
+09:52:45.121 karate.env system property was: uat 
+09:52:45.145 [print] {
+  "mensagem": "CPF 22251237135 não encontrado"
+}
+
+09:52:45.153 karate.env system property was: uat 
+09:52:45.210 [print] OK
+09:52:45.217 karate.env system property was: uat 
+09:52:45.255 [print] 

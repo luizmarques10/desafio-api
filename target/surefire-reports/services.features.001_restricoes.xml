@@ -1,0 +1,786 @@
+<testsuite failures="0"
+           name="services/features/001_restricoes.feature"
+           skipped="0"
+           tests="15"
+           time="0.547794">
+   <testcase classname="services.features.001_restricoes"
+             name="Consultar uma restrição pelo CPF - Positivo"
+             time="0.232187">
+      <system-out>* url apiUrl .............................................................. passed
+Given path "/restricoes/97093236014" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 97093236014 tem problema" .......... passed</system-out>
+   </testcase>
+   <testcase classname="services.features.001_restricoes"
+             name="Consultar uma restrição pelo CPF - Positivo"
+             time="0.028176">
+      <system-out>* url apiUrl .............................................................. passed
+Given path "/restricoes/97093236014" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 97093236014 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/60094146012" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 60094146012 tem problema" .......... passed</system-out>
+   </testcase>
+   <testcase classname="services.features.001_restricoes"
+             name="Consultar uma restrição pelo CPF - Positivo"
+             time="0.022958">
+      <system-out>* url apiUrl .............................................................. passed
+Given path "/restricoes/97093236014" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 97093236014 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/60094146012" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 60094146012 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/84809766080" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 84809766080 tem problema" .......... passed</system-out>
+   </testcase>
+   <testcase classname="services.features.001_restricoes"
+             name="Consultar uma restrição pelo CPF - Positivo"
+             time="0.020284">
+      <system-out>* url apiUrl .............................................................. passed
+Given path "/restricoes/97093236014" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 97093236014 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/60094146012" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 60094146012 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/84809766080" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 84809766080 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/62648716050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 62648716050 tem problema" .......... passed</system-out>
+   </testcase>
+   <testcase classname="services.features.001_restricoes"
+             name="Consultar uma restrição pelo CPF - Positivo"
+             time="0.023419">
+      <system-out>* url apiUrl .............................................................. passed
+Given path "/restricoes/97093236014" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 97093236014 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/60094146012" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 60094146012 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/84809766080" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 84809766080 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/62648716050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 62648716050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/26276298085" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 26276298085 tem problema" .......... passed</system-out>
+   </testcase>
+   <testcase classname="services.features.001_restricoes"
+             name="Consultar uma restrição pelo CPF - Positivo"
+             time="0.019584">
+      <system-out>* url apiUrl .............................................................. passed
+Given path "/restricoes/97093236014" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 97093236014 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/60094146012" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 60094146012 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/84809766080" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 84809766080 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/62648716050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 62648716050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/26276298085" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 26276298085 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/01317496094" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 01317496094 tem problema" .......... passed</system-out>
+   </testcase>
+   <testcase classname="services.features.001_restricoes"
+             name="Consultar uma restrição pelo CPF - Positivo"
+             time="0.025765">
+      <system-out>* url apiUrl .............................................................. passed
+Given path "/restricoes/97093236014" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 97093236014 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/60094146012" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 60094146012 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/84809766080" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 84809766080 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/62648716050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 62648716050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/26276298085" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 26276298085 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/01317496094" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 01317496094 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/55856777050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 55856777050 tem problema" .......... passed</system-out>
+   </testcase>
+   <testcase classname="services.features.001_restricoes"
+             name="Consultar uma restrição pelo CPF - Positivo"
+             time="0.022707">
+      <system-out>* url apiUrl .............................................................. passed
+Given path "/restricoes/97093236014" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 97093236014 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/60094146012" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 60094146012 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/84809766080" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 84809766080 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/62648716050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 62648716050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/26276298085" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 26276298085 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/01317496094" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 01317496094 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/55856777050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 55856777050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/19626829001" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 19626829001 tem problema" .......... passed</system-out>
+   </testcase>
+   <testcase classname="services.features.001_restricoes"
+             name="Consultar uma restrição pelo CPF - Positivo"
+             time="0.028704">
+      <system-out>* url apiUrl .............................................................. passed
+Given path "/restricoes/97093236014" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 97093236014 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/60094146012" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 60094146012 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/84809766080" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 84809766080 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/62648716050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 62648716050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/26276298085" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 26276298085 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/01317496094" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 01317496094 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/55856777050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 55856777050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/19626829001" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 19626829001 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/24094592008" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 24094592008 tem problema" .......... passed</system-out>
+   </testcase>
+   <testcase classname="services.features.001_restricoes"
+             name="Consultar uma restrição pelo CPF - Positivo"
+             time="0.023656">
+      <system-out>* url apiUrl .............................................................. passed
+Given path "/restricoes/97093236014" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 97093236014 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/60094146012" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 60094146012 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/84809766080" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 84809766080 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/62648716050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 62648716050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/26276298085" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 26276298085 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/01317496094" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 01317496094 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/55856777050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 55856777050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/19626829001" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 19626829001 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/24094592008" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 24094592008 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/58063164083" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 58063164083 tem problema" .......... passed</system-out>
+   </testcase>
+   <testcase classname="services.features.001_restricoes"
+             name="Consultar uma restrição pelo CPF - Negativo"
+             time="0.024462">
+      <system-out>* url apiUrl .............................................................. passed
+Given path "/restricoes/97093236014" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 97093236014 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/60094146012" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 60094146012 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/84809766080" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 84809766080 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/62648716050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 62648716050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/26276298085" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 26276298085 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/01317496094" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 01317496094 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/55856777050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 55856777050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/19626829001" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 19626829001 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/24094592008" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 24094592008 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/58063164083" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 58063164083 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/66156841873" ...................................... passed
+When method get ........................................................... passed
+Then status 204 ........................................................... passed
+And print response ........................................................ passed
+And match response ==  "" ................................................. passed</system-out>
+   </testcase>
+   <testcase classname="services.features.001_restricoes"
+             name="Consultar uma restrição pelo CPF - Negativo"
+             time="0.018808">
+      <system-out>* url apiUrl .............................................................. passed
+Given path "/restricoes/97093236014" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 97093236014 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/60094146012" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 60094146012 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/84809766080" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 84809766080 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/62648716050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 62648716050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/26276298085" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 26276298085 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/01317496094" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 01317496094 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/55856777050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 55856777050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/19626829001" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 19626829001 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/24094592008" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 24094592008 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/58063164083" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 58063164083 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/66156841873" ...................................... passed
+When method get ........................................................... passed
+Then status 204 ........................................................... passed
+And print response ........................................................ passed
+And match response ==  "" ................................................. passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/82921172534" ...................................... passed
+When method get ........................................................... passed
+Then status 204 ........................................................... passed
+And print response ........................................................ passed
+And match response ==  "" ................................................. passed</system-out>
+   </testcase>
+   <testcase classname="services.features.001_restricoes"
+             name="Consultar uma restrição pelo CPF - Negativo"
+             time="0.017333">
+      <system-out>* url apiUrl .............................................................. passed
+Given path "/restricoes/97093236014" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 97093236014 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/60094146012" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 60094146012 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/84809766080" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 84809766080 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/62648716050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 62648716050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/26276298085" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 26276298085 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/01317496094" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 01317496094 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/55856777050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 55856777050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/19626829001" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 19626829001 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/24094592008" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 24094592008 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/58063164083" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 58063164083 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/66156841873" ...................................... passed
+When method get ........................................................... passed
+Then status 204 ........................................................... passed
+And print response ........................................................ passed
+And match response ==  "" ................................................. passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/82921172534" ...................................... passed
+When method get ........................................................... passed
+Then status 204 ........................................................... passed
+And print response ........................................................ passed
+And match response ==  "" ................................................. passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/08632382624" ...................................... passed
+When method get ........................................................... passed
+Then status 204 ........................................................... passed
+And print response ........................................................ passed
+And match response ==  "" ................................................. passed</system-out>
+   </testcase>
+   <testcase classname="services.features.001_restricoes"
+             name="Consultar uma restrição pelo CPF - Negativo"
+             time="0.019532">
+      <system-out>* url apiUrl .............................................................. passed
+Given path "/restricoes/97093236014" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 97093236014 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/60094146012" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 60094146012 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/84809766080" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 84809766080 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/62648716050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 62648716050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/26276298085" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 26276298085 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/01317496094" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 01317496094 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/55856777050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 55856777050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/19626829001" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 19626829001 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/24094592008" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 24094592008 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/58063164083" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 58063164083 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/66156841873" ...................................... passed
+When method get ........................................................... passed
+Then status 204 ........................................................... passed
+And print response ........................................................ passed
+And match response ==  "" ................................................. passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/82921172534" ...................................... passed
+When method get ........................................................... passed
+Then status 204 ........................................................... passed
+And print response ........................................................ passed
+And match response ==  "" ................................................. passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/08632382624" ...................................... passed
+When method get ........................................................... passed
+Then status 204 ........................................................... passed
+And print response ........................................................ passed
+And match response ==  "" ................................................. passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/95653373842" ...................................... passed
+When method get ........................................................... passed
+Then status 204 ........................................................... passed
+And print response ........................................................ passed
+And match response ==  "" ................................................. passed</system-out>
+   </testcase>
+   <testcase classname="services.features.001_restricoes"
+             name="Consultar uma restrição pelo CPF - Negativo"
+             time="0.02022">
+      <system-out>* url apiUrl .............................................................. passed
+Given path "/restricoes/97093236014" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 97093236014 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/60094146012" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 60094146012 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/84809766080" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 84809766080 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/62648716050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 62648716050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/26276298085" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 26276298085 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/01317496094" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 01317496094 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/55856777050" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 55856777050 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/19626829001" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 19626829001 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/24094592008" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 24094592008 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/58063164083" ...................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.mensagem ==  "O CPF 58063164083 tem problema" .......... passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/66156841873" ...................................... passed
+When method get ........................................................... passed
+Then status 204 ........................................................... passed
+And print response ........................................................ passed
+And match response ==  "" ................................................. passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/82921172534" ...................................... passed
+When method get ........................................................... passed
+Then status 204 ........................................................... passed
+And print response ........................................................ passed
+And match response ==  "" ................................................. passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/08632382624" ...................................... passed
+When method get ........................................................... passed
+Then status 204 ........................................................... passed
+And print response ........................................................ passed
+And match response ==  "" ................................................. passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/95653373842" ...................................... passed
+When method get ........................................................... passed
+Then status 204 ........................................................... passed
+And print response ........................................................ passed
+And match response ==  "" ................................................. passed
+* url apiUrl .............................................................. passed
+Given path "/restricoes/22251237135" ...................................... passed
+When method get ........................................................... passed
+Then status 204 ........................................................... passed
+And print response ........................................................ passed
+And match response ==  "" ................................................. passed</system-out>
+   </testcase>
+</testsuite>

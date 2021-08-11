@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    <link href="favicon.ico" rel="shortcut icon">
+    <script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    <title>services.features.002_simulacoes</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        <div class="nav-logo">
+          <a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          <div class="nav-count">
+            <div class="bg-success" id="nav-pass">10</div>
+            <div class="bg-danger" id="nav-fail">0</div>
+          </div>
+        </div>
+        <div id="nav-type">Scenarios</div>         
+        <div id="nav-date">2021-08-11 09:52:45 AM</div>        
+      <div class="nav-container"><div class="nav-item passed"><a href="#[1.1:36]">[1.1:36] Cadastrar Simulações - Positivo </a></div><div class="nav-item passed"><a href="#[2.1:58]">[2.1:58] Cadastrar Simulações - Negativo </a></div><div class="nav-item passed"><a href="#[2.2:59]">[2.2:59] Cadastrar Simulações - Negativo </a></div><div class="nav-item passed"><a href="#[3.1:90]">[3.1:90] Alterar Simulações - Positivo </a></div><div class="nav-item passed"><a href="#[4.1:113]">[4.1:113] Alterar Simulações - Negativo </a></div><div class="nav-item passed"><a href="#[5:116]">[5:116] Consultar todas a Simulações </a></div><div class="nav-item passed"><a href="#[6.1:132]">[6.1:132] Consultar Simulações por CPF </a></div><div class="nav-item passed"><a href="#[6.2:133]">[6.2:133] Consultar Simulações por CPF </a></div><div class="nav-item passed"><a href="#[7.1:149]">[7.1:149] Remover uma simulação </a></div><div class="nav-item passed"><a href="#[7.2:150]">[7.2:150] Remover uma simulação </a></div></div></div>
+      <div id="content">
+      <div class="page-heading alert alert-primary"><a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">services/features/002_simulacoes.feature</span><span class="feature-description">CT 02 Simulações</span></div><div class="scenario"><div class="scenario-heading" id="[1.1:36]"><div class="heading-container"><div class="scenario-tags"></div><span class="scenario-keyword">Scenario Outline: [1.1:36]</span><span class="scenario-name">Cadastrar Simulações - Positivo </span></div><div class="scenario-time passed">ms: 35</div></div><div class="step-row"><div class="step-container" id="[1.1:36]bg"><div class="step-ref bg-step">&gt;&gt;</div><div class="step-cell passed">Background:</div></div><div class="time-cell passed"></div></div><div class="step-row" data-parent="[1.1:36]bg"><div class="step-container" id="1"><div class="step-ref bg-step">1</div><div class="step-cell passed">* url apiUrl</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="1">09:52:44.480 karate.env system property was: uat</div><div class="step-row"><div class="step-container" id="2"><div class="step-ref passed">2</div><div class="step-cell passed">Given path "/simulacoes"</div></div><div class="time-cell passed">3</div></div><div class="step-row"><div class="step-container" id="3"><div class="step-ref passed">3</div><div class="step-cell passed">And request</div></div><div class="time-cell passed">1</div></div><div class="preformatted" data-parent="3">{
+    "nome": "Ricardo Vasconcelos",
+    "cpf":  35107604684,
+    "email": "rr.vascncelos@exemplo.com",
+    "valor": 1000,
+    "parcelas": 6,
+    "seguro": true
+}</div><div class="step-row"><div class="step-container" id="4"><div class="step-ref passed">4</div><div class="step-cell passed">When method post</div></div><div class="time-cell passed">29</div></div><div class="step-row"><div class="step-container" id="5"><div class="step-ref passed">5</div><div class="step-cell passed">Then status 201</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="6"><div class="step-ref passed">6</div><div class="step-cell passed">And print response</div></div><div class="time-cell passed">1</div></div><div class="preformatted" data-parent="6">09:52:44.518 [print] {
+  "parcelas": 6,
+  "seguro": true,
+  "cpf": "35107604684",
+  "valor": 1000,
+  "nome": "Ricardo Vasconcelos",
+  "id": 105,
+  "email": "rr.vascncelos@exemplo.com"
+}</div><div class="step-row"><div class="step-container" id="7"><div class="step-ref passed">7</div><div class="step-cell passed">And match response contains</div></div><div class="time-cell passed">1</div></div><div class="preformatted" data-parent="7">{
+    "nome": "Ricardo Vasconcelos",
+    "cpf":  "35107604684",
+    "email": "rr.vascncelos@exemplo.com",
+    "valor": 1000,
+    "parcelas": 6,
+    "seguro": true
+}</div></div><div class="scenario"><div class="scenario-heading" id="[2.1:58]"><div class="heading-container"><div class="scenario-tags"></div><span class="scenario-keyword">Scenario Outline: [2.1:58]</span><span class="scenario-name">Cadastrar Simulações - Negativo </span></div><div class="scenario-time passed">ms: 25</div></div><div class="step-row"><div class="step-container" id="[2.1:58]bg"><div class="step-ref bg-step">&gt;&gt;</div><div class="step-cell passed">Background:</div></div><div class="time-cell passed"></div></div><div class="step-row" data-parent="[2.1:58]bg"><div class="step-container" id="8"><div class="step-ref bg-step">8</div><div class="step-cell passed">* url apiUrl</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="8">09:52:44.534 karate.env system property was: uat</div><div class="step-row"><div class="step-container" id="9"><div class="step-ref passed">9</div><div class="step-cell passed">Given path "/simulacoes"</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="10"><div class="step-ref passed">10</div><div class="step-cell passed">And request</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="10">{
+    "nome": "Pierre Vasconcelos",
+    "cpf":  64025718499,
+    "email": "",
+    "valor": 1.000,
+    "parcelas": 6,
+    "seguro": true
+}</div><div class="step-row"><div class="step-container" id="11"><div class="step-ref passed">11</div><div class="step-cell passed">When method post</div></div><div class="time-cell passed">23</div></div><div class="step-row"><div class="step-container" id="12"><div class="step-ref passed">12</div><div class="step-cell passed">Then status 400</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="13"><div class="step-ref passed">13</div><div class="step-cell passed">And print response</div></div><div class="time-cell passed">1</div></div><div class="preformatted" data-parent="13">09:52:44.562 [print] {
+  "erros": {
+    "email": "E-mail deve ser um e-mail válido"
+  }
+}</div><div class="step-row"><div class="step-container" id="14"><div class="step-ref passed">14</div><div class="step-cell passed">And match response == {"erros":{"email": "E-mail deve ser um e-mail válido"}}</div></div><div class="time-cell passed">0</div></div></div><div class="scenario"><div class="scenario-heading" id="[2.2:59]"><div class="heading-container"><div class="scenario-tags"></div><span class="scenario-keyword">Scenario Outline: [2.2:59]</span><span class="scenario-name">Cadastrar Simulações - Negativo </span></div><div class="scenario-time passed">ms: 70</div></div><div class="step-row"><div class="step-container" id="[2.2:59]bg"><div class="step-ref bg-step">&gt;&gt;</div><div class="step-cell passed">Background:</div></div><div class="time-cell passed"></div></div><div class="step-row" data-parent="[2.2:59]bg"><div class="step-container" id="15"><div class="step-ref bg-step">15</div><div class="step-cell passed">* url apiUrl</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="15">09:52:44.581 karate.env system property was: uat</div><div class="step-row"><div class="step-container" id="16"><div class="step-ref passed">16</div><div class="step-cell passed">Given path "/simulacoes"</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="17"><div class="step-ref passed">17</div><div class="step-cell passed">And request</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="17">{
+    "nome": "Ricardo Vasconcelos",
+    "cpf":  35107604684,
+    "email": "rr.vascncelos@exemplo.com",
+    "valor": 1.000,
+    "parcelas": 6,
+    "seguro": true
+}</div><div class="step-row"><div class="step-container" id="18"><div class="step-ref passed">18</div><div class="step-cell passed">When method post</div></div><div class="time-cell passed">69</div></div><div class="step-row"><div class="step-container" id="19"><div class="step-ref passed">19</div><div class="step-cell passed">Then status 400</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="20"><div class="step-ref passed">20</div><div class="step-cell passed">And print response</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="20">09:52:44.655 [print] {
+  "mensagem": "CPF duplicado"
+}</div><div class="step-row"><div class="step-container" id="21"><div class="step-ref passed">21</div><div class="step-cell passed">And match response == {"mensagem": "CPF duplicado"}</div></div><div class="time-cell passed">0</div></div></div><div class="scenario"><div class="scenario-heading" id="[3.1:90]"><div class="heading-container"><div class="scenario-tags"></div><span class="scenario-keyword">Scenario Outline: [3.1:90]</span><span class="scenario-name">Alterar Simulações - Positivo </span></div><div class="scenario-time passed">ms: 313</div></div><div class="step-row"><div class="step-container" id="[3.1:90]bg"><div class="step-ref bg-step">&gt;&gt;</div><div class="step-cell passed">Background:</div></div><div class="time-cell passed"></div></div><div class="step-row" data-parent="[3.1:90]bg"><div class="step-container" id="22"><div class="step-ref bg-step">22</div><div class="step-cell passed">* url apiUrl</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="22">09:52:44.666 karate.env system property was: uat</div><div class="step-row"><div class="step-container" id="23"><div class="step-ref passed">23</div><div class="step-cell passed">Given path "/simulacoes/35107604684"</div></div><div class="time-cell passed">4</div></div><div class="step-row"><div class="step-container" id="24"><div class="step-ref passed">24</div><div class="step-cell passed">And request</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="24">{
+    "nome": "Ricardo Almeida Vasconcelos",
+    "cpf":  35107604684,
+    "email": "rr.vascncelos@exemplo.com",
+    "valor": 1000,
+    "parcelas": 24,
+    "seguro": true
+}</div><div class="step-row"><div class="step-container" id="25"><div class="step-ref passed">25</div><div class="step-cell passed">When method put</div></div><div class="time-cell passed">304</div></div><div class="step-row"><div class="step-container" id="26"><div class="step-ref passed">26</div><div class="step-cell passed">Then status 200</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="27"><div class="step-ref passed">27</div><div class="step-cell passed">And print response</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="27">09:52:44.978 [print] {
+  "parcelas": 24,
+  "seguro": true,
+  "cpf": "35107604684",
+  "valor": 1000.0,
+  "nome": "Ricardo Almeida Vasconcelos",
+  "id": 105,
+  "email": "rr.vascncelos@exemplo.com"
+}</div><div class="step-row"><div class="step-container" id="28"><div class="step-ref passed">28</div><div class="step-cell passed">And match response contains</div></div><div class="time-cell passed">5</div></div><div class="preformatted" data-parent="28">{
+    "nome": "Ricardo Almeida Vasconcelos",
+    "cpf":  "35107604684",
+    "email": "rr.vascncelos@exemplo.com",
+    "valor": 1000,
+    "parcelas": 24,
+    "seguro": true
+}</div></div><div class="scenario"><div class="scenario-heading" id="[4.1:113]"><div class="heading-container"><div class="scenario-tags"></div><span class="scenario-keyword">Scenario Outline: [4.1:113]</span><span class="scenario-name">Alterar Simulações - Negativo </span></div><div class="scenario-time passed">ms: 33</div></div><div class="step-row"><div class="step-container" id="[4.1:113]bg"><div class="step-ref bg-step">&gt;&gt;</div><div class="step-cell passed">Background:</div></div><div class="time-cell passed"></div></div><div class="step-row" data-parent="[4.1:113]bg"><div class="step-container" id="29"><div class="step-ref bg-step">29</div><div class="step-cell passed">* url apiUrl</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="29">09:52:44.994 karate.env system property was: uat</div><div class="step-row"><div class="step-container" id="30"><div class="step-ref passed">30</div><div class="step-cell passed">Given path "/simulacoes64025718499"</div></div><div class="time-cell passed">2</div></div><div class="step-row"><div class="step-container" id="31"><div class="step-ref passed">31</div><div class="step-cell passed">And request</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="31">{
+    "nome": "Pierre Vasconcelos",
+    "cpf":  64025718499,
+    "email": "pr.vascncelos@exemplo.com",
+    "valor": 1.000,
+    "parcelas": 6,
+    "seguro": true
+}</div><div class="step-row"><div class="step-container" id="32"><div class="step-ref passed">32</div><div class="step-cell passed">When method put</div></div><div class="time-cell passed">16</div></div><div class="step-row"><div class="step-container" id="33"><div class="step-ref passed">33</div><div class="step-cell passed">Then status 404</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="34"><div class="step-ref passed">34</div><div class="step-cell passed">* def esultadoConsulta = response</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="35"><div class="step-ref passed">35</div><div class="step-cell passed">And print resultadoConsulta</div></div><div class="time-cell passed">11</div></div><div class="preformatted" data-parent="35">09:52:45.026 [print]</div><div class="step-row"><div class="step-container" id="36"><div class="step-ref passed">36</div><div class="step-cell passed">And match response.message == "No message available"</div></div><div class="time-cell passed">3</div></div></div><div class="scenario"><div class="scenario-heading" id="[5:116]"><div class="heading-container"><div class="scenario-tags"></div><span class="scenario-keyword">Scenario: [5:116]</span><span class="scenario-name">Consultar todas a Simulações </span></div><div class="scenario-time passed">ms: 24</div></div><div class="step-row"><div class="step-container" id="[5:116]bg"><div class="step-ref bg-step">&gt;&gt;</div><div class="step-cell passed">Background:</div></div><div class="time-cell passed"></div></div><div class="step-row" data-parent="[5:116]bg"><div class="step-container" id="37"><div class="step-ref bg-step">37</div><div class="step-cell passed">* url apiUrl</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="37">09:52:45.036 karate.env system property was: uat</div><div class="step-row"><div class="step-container" id="38"><div class="step-ref passed">38</div><div class="step-cell passed">Given path "/simulacoes"</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="39"><div class="step-ref passed">39</div><div class="step-cell passed">When method get</div></div><div class="time-cell passed">23</div></div><div class="step-row"><div class="step-container" id="40"><div class="step-ref passed">40</div><div class="step-cell passed">Then status 200</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="41"><div class="step-ref passed">41</div><div class="step-cell passed">And print response</div></div><div class="time-cell passed">1</div></div><div class="preformatted" data-parent="41">09:52:45.065 [print] [
+  {
+    "parcelas": 3,
+    "seguro": true,
+    "cpf": "66414919004",
+    "valor": 11000.0,
+    "nome": "Fulano",
+    "id": 11,
+    "email": "fulano@gmail.com"
+  },
+  {
+    "parcelas": 5,
+    "seguro": false,
+    "cpf": "17822386034",
+    "valor": 20000.0,
+    "nome": "Deltrano",
+    "id": 12,
+    "email": "deltrano@gmail.com"
+  },
+  {
+    "parcelas": 3,
+    "seguro": true,
+    "cpf": "97093236014",
+    "valor": 1200.0,
+    "nome": "Fulano de Tal",
+    "id": 13,
+    "email": "email@email.com"
+  },
+  {
+    "parcelas": 24,
+    "seguro": true,
+    "cpf": "35107604684",
+    "valor": 1000.0,
+    "nome": "Ricardo Almeida Vasconcelos",
+    "id": 105,
+    "email": "rr.vascncelos@exemplo.com"
+  }
+]</div></div><div class="scenario"><div class="scenario-heading" id="[6.1:132]"><div class="heading-container"><div class="scenario-tags"></div><span class="scenario-keyword">Scenario Outline: [6.1:132]</span><span class="scenario-name">Consultar Simulações por CPF </span></div><div class="scenario-time passed">ms: 27</div></div><div class="step-row"><div class="step-container" id="[6.1:132]bg"><div class="step-ref bg-step">&gt;&gt;</div><div class="step-cell passed">Background:</div></div><div class="time-cell passed"></div></div><div class="step-row" data-parent="[6.1:132]bg"><div class="step-container" id="42"><div class="step-ref bg-step">42</div><div class="step-cell passed">* url apiUrl</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="42">09:52:45.078 karate.env system property was: uat</div><div class="step-row"><div class="step-container" id="43"><div class="step-ref passed">43</div><div class="step-cell passed">Given path "/simulacoes/35107604684"</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="44"><div class="step-ref passed">44</div><div class="step-cell passed">When method get</div></div><div class="time-cell passed">26</div></div><div class="step-row"><div class="step-container" id="45"><div class="step-ref passed">45</div><div class="step-cell passed">And status 200</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="46"><div class="step-ref passed">46</div><div class="step-cell passed">And print response</div></div><div class="time-cell passed">1</div></div><div class="preformatted" data-parent="46">09:52:45.111 [print] {
+  "parcelas": 24,
+  "seguro": true,
+  "cpf": "35107604684",
+  "valor": 1000.0,
+  "nome": "Ricardo Almeida Vasconcelos",
+  "id": 105,
+  "email": "rr.vascncelos@exemplo.com"
+}</div></div><div class="scenario"><div class="scenario-heading" id="[6.2:133]"><div class="heading-container"><div class="scenario-tags"></div><span class="scenario-keyword">Scenario Outline: [6.2:133]</span><span class="scenario-name">Consultar Simulações por CPF </span></div><div class="scenario-time passed">ms: 21</div></div><div class="step-row"><div class="step-container" id="[6.2:133]bg"><div class="step-ref bg-step">&gt;&gt;</div><div class="step-cell passed">Background:</div></div><div class="time-cell passed"></div></div><div class="step-row" data-parent="[6.2:133]bg"><div class="step-container" id="47"><div class="step-ref bg-step">47</div><div class="step-cell passed">* url apiUrl</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="47">09:52:45.121 karate.env system property was: uat</div><div class="step-row"><div class="step-container" id="48"><div class="step-ref passed">48</div><div class="step-cell passed">Given path "/simulacoes/22251237135"</div></div><div class="time-cell passed">3</div></div><div class="step-row"><div class="step-container" id="49"><div class="step-ref passed">49</div><div class="step-cell passed">When method get</div></div><div class="time-cell passed">18</div></div><div class="step-row"><div class="step-container" id="50"><div class="step-ref passed">50</div><div class="step-cell passed">And status 404</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="51"><div class="step-ref passed">51</div><div class="step-cell passed">And print response</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="51">09:52:45.145 [print] {
+  "mensagem": "CPF 22251237135 não encontrado"
+}</div></div><div class="scenario"><div class="scenario-heading" id="[7.1:149]"><div class="heading-container"><div class="scenario-tags"></div><span class="scenario-keyword">Scenario Outline: [7.1:149]</span><span class="scenario-name">Remover uma simulação </span></div><div class="scenario-time passed">ms: 51</div></div><div class="step-row"><div class="step-container" id="[7.1:149]bg"><div class="step-ref bg-step">&gt;&gt;</div><div class="step-cell passed">Background:</div></div><div class="time-cell passed"></div></div><div class="step-row" data-parent="[7.1:149]bg"><div class="step-container" id="52"><div class="step-ref bg-step">52</div><div class="step-cell passed">* url apiUrl</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="52">09:52:45.153 karate.env system property was: uat</div><div class="step-row"><div class="step-container" id="53"><div class="step-ref passed">53</div><div class="step-cell passed">Given path "/simulacoes/35107604684"</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="54"><div class="step-ref passed">54</div><div class="step-cell passed">When method get</div></div><div class="time-cell passed">19</div></div><div class="step-row"><div class="step-container" id="55"><div class="step-ref passed">55</div><div class="step-cell passed">* def id = response.id</div></div><div class="time-cell passed">5</div></div><div class="step-row"><div class="step-container" id="56"><div class="step-ref passed">56</div><div class="step-cell passed">Given path "/simulacoes", id</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="57"><div class="step-ref passed">57</div><div class="step-cell passed">When method delete</div></div><div class="time-cell passed">27</div></div><div class="step-row"><div class="step-container" id="58"><div class="step-ref passed">58</div><div class="step-cell passed">Then status 200</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="59"><div class="step-ref passed">59</div><div class="step-cell passed">And print response</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="59">09:52:45.210 [print] OK</div></div><div class="scenario"><div class="scenario-heading" id="[7.2:150]"><div class="heading-container"><div class="scenario-tags"></div><span class="scenario-keyword">Scenario Outline: [7.2:150]</span><span class="scenario-name">Remover uma simulação </span></div><div class="scenario-time passed">ms: 33</div></div><div class="step-row"><div class="step-container" id="[7.2:150]bg"><div class="step-ref bg-step">&gt;&gt;</div><div class="step-cell passed">Background:</div></div><div class="time-cell passed"></div></div><div class="step-row" data-parent="[7.2:150]bg"><div class="step-container" id="60"><div class="step-ref bg-step">60</div><div class="step-cell passed">* url apiUrl</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="60">09:52:45.217 karate.env system property was: uat</div><div class="step-row"><div class="step-container" id="61"><div class="step-ref passed">61</div><div class="step-cell passed">Given path "/simulacoes/22251237135"</div></div><div class="time-cell passed">1</div></div><div class="step-row"><div class="step-container" id="62"><div class="step-ref passed">62</div><div class="step-cell passed">When method get</div></div><div class="time-cell passed">21</div></div><div class="step-row"><div class="step-container" id="63"><div class="step-ref passed">63</div><div class="step-cell passed">* def id = response.id</div></div><div class="time-cell passed">1</div></div><div class="step-row"><div class="step-container" id="64"><div class="step-ref passed">64</div><div class="step-cell passed">Given path "/simulacoes", id</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="65"><div class="step-ref passed">65</div><div class="step-cell passed">When method delete</div></div><div class="time-cell passed">10</div></div><div class="step-row"><div class="step-container" id="66"><div class="step-ref passed">66</div><div class="step-cell passed">Then status 405</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="67"><div class="step-ref passed">67</div><div class="step-cell passed">And print response</div></div><div class="time-cell passed">0</div></div><div class="preformatted" data-parent="67">09:52:45.255 [print]</div></div></div>
+    </div>   
+  </body>
+</html>

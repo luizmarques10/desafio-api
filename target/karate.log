@@ -1,0 +1,160 @@
+09:52:41.321 [main] INFO  com.intuit.karate.RunnerOptions - found system property 'karate.options': --tags ~@ignore
+09:52:42.079 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+09:52:43.209 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:43.459 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "mensagem": "O CPF 97093236014 tem problema"
+}
+
+09:52:43.484 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:43.511 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "mensagem": "O CPF 60094146012 tem problema"
+}
+
+09:52:43.537 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:43.563 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "mensagem": "O CPF 84809766080 tem problema"
+}
+
+09:52:43.581 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:43.600 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "mensagem": "O CPF 62648716050 tem problema"
+}
+
+09:52:43.616 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:43.641 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "mensagem": "O CPF 26276298085 tem problema"
+}
+
+09:52:43.660 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:43.680 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "mensagem": "O CPF 01317496094 tem problema"
+}
+
+09:52:43.694 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:43.723 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "mensagem": "O CPF 55856777050 tem problema"
+}
+
+09:52:43.741 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:43.765 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "mensagem": "O CPF 19626829001 tem problema"
+}
+
+09:52:43.783 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:43.811 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "mensagem": "O CPF 24094592008 tem problema"
+}
+
+09:52:43.827 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:43.850 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "mensagem": "O CPF 58063164083 tem problema"
+}
+
+09:52:43.864 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:43.889 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+09:52:43.906 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:43.927 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+09:52:43.940 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:43.963 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+09:52:43.975 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:43.998 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+09:52:44.013 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:44.036 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+09:52:44.447 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 2: classpath:services/features/001_restricoes.feature
+09:52:44.480 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:44.518 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "parcelas": 6,
+  "seguro": true,
+  "cpf": "35107604684",
+  "valor": 1000,
+  "nome": "Ricardo Vasconcelos",
+  "id": 105,
+  "email": "rr.vascncelos@exemplo.com"
+}
+
+09:52:44.534 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:44.561 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "erros": {
+    "email": "E-mail deve ser um e-mail válido"
+  }
+}
+
+09:52:44.580 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:44.655 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "mensagem": "CPF duplicado"
+}
+
+09:52:44.665 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:44.978 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "parcelas": 24,
+  "seguro": true,
+  "cpf": "35107604684",
+  "valor": 1000.0,
+  "nome": "Ricardo Almeida Vasconcelos",
+  "id": 105,
+  "email": "rr.vascncelos@exemplo.com"
+}
+
+09:52:44.994 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:45.026 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print]
+09:52:45.036 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:45.064 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] [
+  {
+    "parcelas": 3,
+    "seguro": true,
+    "cpf": "66414919004",
+    "valor": 11000.0,
+    "nome": "Fulano",
+    "id": 11,
+    "email": "fulano@gmail.com"
+  },
+  {
+    "parcelas": 5,
+    "seguro": false,
+    "cpf": "17822386034",
+    "valor": 20000.0,
+    "nome": "Deltrano",
+    "id": 12,
+    "email": "deltrano@gmail.com"
+  },
+  {
+    "parcelas": 3,
+    "seguro": true,
+    "cpf": "97093236014",
+    "valor": 1200.0,
+    "nome": "Fulano de Tal",
+    "id": 13,
+    "email": "email@email.com"
+  },
+  {
+    "parcelas": 24,
+    "seguro": true,
+    "cpf": "35107604684",
+    "valor": 1000.0,
+    "nome": "Ricardo Almeida Vasconcelos",
+    "id": 105,
+    "email": "rr.vascncelos@exemplo.com"
+  }
+]
+
+09:52:45.077 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:45.110 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "parcelas": 24,
+  "seguro": true,
+  "cpf": "35107604684",
+  "valor": 1000.0,
+  "nome": "Ricardo Almeida Vasconcelos",
+  "id": 105,
+  "email": "rr.vascncelos@exemplo.com"
+}
+
+09:52:45.120 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:45.145 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "mensagem": "CPF 22251237135 não encontrado"
+}
+
+09:52:45.153 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:45.210 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] OK
+09:52:45.217 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: uat 
+09:52:45.254 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 
+09:52:45.294 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 2: classpath:services/features/002_simulacoes.feature

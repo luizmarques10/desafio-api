@@ -1,4 +1,4 @@
-# desafio-api
+# desafio-api utilizando o framework karate DSL
 
 ## Dependencies
 
